@@ -1,0 +1,49 @@
+.card {
+    width: 10rem;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.form-control {
+    background-color: #FAC0;
+}
+
+body{
+    overflow: hidden;
+}
+
+.down{
+    margin-bottom: auto;
+}
+
+#bg-video {
+    position: absolute;
+    overflow: hidden;
+}
+
+.bg-voilee{
+    border-radius:10px;
+    background-color: #20202041;
+}
+
+#bg-card1-video {
+    position: absolute;
+}
+
+#bg-card2-video {
+    position: absolute;
+}
+
+#bg-card3-video {
+    position: absolute;
+}
+
+#bg-card4-video {
+    position: absolute;
+}
+
+#bg-video, #bg-card1-video, #bg-card2-video, #bg-card3-video, #bg-card4-video {
+    z-index: -1;
+    background: #00000000;
+}
